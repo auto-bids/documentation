@@ -1,0 +1,28 @@
+{
+    "Title": "Car Title",
+    "Make": "Car Make",
+    "Model": "Car Model",
+    "Price": 10000,
+    "Description": "Car Description",
+    "Photos": ["photo1.jpg", "photo2.jpg"],
+    "Year": 2020,
+    "Mileage": 5000,
+    "VinNumber": 123456789,
+    "EngineCapacity": "2.0L",
+    "Fuel": "Petrol",
+    "Transmission": "Automatic",
+    "Steering": "Left",
+    "Type": "SUV",
+    "Power": 150,
+    "Drive": "4WD",
+    "Doors": 4,
+    "Seats": 5,
+    "RegistrationNumber": "XYZ 1234",
+    "FirstRegistration": "2020-01-01",
+    "Condition": "New",
+    "TelephoneNumber": "123-456-7890",
+    "Position": {
+        "PositionX": 37.7749,
+        "PositionY": -122.4194
+    }
+}
