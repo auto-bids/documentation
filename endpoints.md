@@ -7,4 +7,14 @@ EDIT - /profiles/edit/me - secured edit profiles of logged user after passing ob
     }<br />
 DELETE - /profiles/delete/me - delete current user whole profile (without cars yet) <br />
 POST - /logout - logout user <br />
+<br /><br /><br /><br />
+
+
+
+
+POST - /cars/page/{page} - returns all cars from page <br />
+POST - /cars/add/me - add new car <br />
+DELETE - /cars/delete/me - delete one of user cars with given id in object<br />
+DELETE - /cars/delete/all/me - delete all user cars <br />
+PUT - /cars/edit/me - edit one of user cars with given id in object<br />
 
