@@ -11,9 +11,10 @@ POST - /logout - logout user <br />
 
 
 
-GET - cars/user/{email}/{page} - returns all cars from user with particular mail and page <br />
-GET - cars/user/me/{page} - returns all cars from logged user and page <br />
-POST - /cars/page/{page} - returns all cars from page <br />
+GET - /cars/offer/user/{email}/{page}{filters} - returns all cars from user with particular mail and page <br />
+GET - /cars/offer/user/me/{page}{filters} - returns all cars from logged user and page ex. /cars/offers/user/me/1?make=Toyota<br />
+GET - /cars/offers/{page}{filters} - returns all cars from page ex. /cars/offers/page/1?make=Toyota<br />
+GET - /cars/offer/{id} - returns car with particular id <br />
 POST - /cars/add/me - add new car <br />
 DELETE - /cars/delete/me - delete one of user cars with given id in object<br />
 DELETE - /cars/delete/all/me - delete all user cars <br />
