@@ -13,4 +13,6 @@ POST   - /cars/add/me - add new car <br />
 DELETE - /cars/delete/me - delete one of user cars with given id in object<br />
 DELETE - /cars/delete/all/me - delete all user cars <br />
 PUT    - /cars/edit/me - edit one of user cars with given id in object<br />
-
+<br /><br />
+DELETE - /admin/profiles/delete/{email} - admin delete user with particular mail <br />
+DELETE - /admin/cars/delete/{id} - admin delete car with particular id <br />
