@@ -16,3 +16,6 @@ PUT    - /cars/edit/me - edit one of user cars with given id in object<br />
 <br /><br />
 DELETE - /admin/profiles/delete/{email} - admin delete user with particular mail <br />
 DELETE - /admin/cars/delete/{id} - admin delete car with particular id <br />
+GET    - /chat/me <br/>
+GET    - /chat/messages/{id}/me/{page} <br/>
+GET    - /chat/conversations/me <br/>
